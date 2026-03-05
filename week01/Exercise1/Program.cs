@@ -3,7 +3,7 @@
 class Program
 {
     static void Main(string[] args)
-    //prompt the user to enter their firstname and lasname.
+    
     {
         Console.WriteLine("Hello World! This is the Exercise1 Project.");
         
