@@ -3,6 +3,7 @@
 class Program
 {
     static void Main(string[] args)
+    //prompt the user to enter their firstname and lasname.
     {
         Console.WriteLine("Hello World! This is the Exercise1 Project.");
         
@@ -12,5 +13,6 @@ class Program
         Console.WriteLine("What is your last Name? ");
         string lastName = Console.ReadLine();
         Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}!");
+    
     }
 }
