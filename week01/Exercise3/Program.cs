@@ -11,7 +11,7 @@ class Program
         while (playAgain.ToLower() == "yes")
         {
 
-         // in this part 1 and the user has to specified the number...
+         // in this part 1 and 2 the user has to specified the number...
          //Console.WriteLine("Please enter a magic number: ");
                  // int magicNumber = int.Parse(Console.ReadLine());
 
@@ -21,12 +21,14 @@ class Program
 
         int guess = -1;
         int guessCount = 0;
+        
         while (guess != magicNumber)
         {
             Console.WriteLine("What is your guess?: ");
             guess = int.Parse(Console.ReadLine());
             guessCount++;
 
+            // give hints to the user if the guess is too high or too low
             if ( magicNumber > guess)
             {
                 Console.WriteLine("High");
@@ -41,8 +43,10 @@ class Program
             }
 
         }
+        // count the number of guesses and display it to the user
          Console.WriteLine($"It took you {guessCount} guesses.");
 
+        // Ask the user if they want to play again
          Console.Write("Do you want to play again? (Yes/No): ");
          playAgain = Console.ReadLine();
      
