@@ -19,7 +19,9 @@ public class Journal
             "What was the strongest emotion I felt today?",
             "If I had one thing I could do over today, what would it be?",
             "What is something I learned today?",
-            "What is something I'm looking forward to tomorrow?"
+            "What is something I'm looking forward to tomorrow?",
+            "How will my future be in the programming world?",
+            "What will I do as a programmer tomarrow?"
         };
     }
 
