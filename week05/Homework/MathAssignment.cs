@@ -8,6 +8,8 @@ public class MathAssignment : Assignment
     //constructor
     public MathAssignment(string studentName, string topic, string textbookSection, string problems) : base(studentName, topic)
     {
+        _studentName = studentName;
+        _topic = topic;
         _textbookSection = textbookSection;
         _problems = problems;
     }
