@@ -1,14 +1,13 @@
 using System;
 
-class Program
+static class Program
 {
-    private static readonly object randomGenerator;
 
     static void Main(string[] args)
     {
         string playAgain = "Yes";
 
-        while (playAgain.ToLower() == "yes")
+        while (playAgain.Equals("yes", StringComparison.OrdinalIgnoreCase))
         {
 
          // in this part 1 and 2 the user has to specified the number...
