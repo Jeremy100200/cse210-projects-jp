@@ -7,9 +7,9 @@ class Program
     {
         List<Activity> activities = new List<Activity>
         {
-            new Running(new DateTime(2024, 6, 1), 30, 5.8),
-            new Cycling(new DateTime(2024, 6, 2), 60, 20.2),
-            new Swimming(new DateTime(2024, 6, 3), 45, 40)
+            new Running(new DateTime(2026, 5, 1), 30, 5.8),
+            new Cycling(new DateTime(2026, 5, 2), 60, 20.2),
+            new Swimming(new DateTime(2026, 5, 3), 45, 40)
         };
 
         foreach (var activity in activities)
