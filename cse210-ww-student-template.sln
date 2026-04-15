@@ -22,9 +22,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EternalQuest", "week06\EternalQuest\EternalQuest.csproj", "{249D5C4B-0D54-4790-9131-02EBA89C96F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week07", "week07", "{8A41528E-2578-42D0-8D2F-3D0A560B8F9F}"
-	ProjectSection(SolutionItems) = preProject
-		Activity.cs = Activity.cs
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseTracking", "week07\ExerciseTracking\ExerciseTracking.csproj", "{82E6EE3D-129A-4D99-99D4-70EB7764A7C4}"
 EndProject

@@ -10,7 +10,7 @@ public abstract class Goal
     {
         _shortName = name;
         _description = description;
-        _points = points;
+        _points = points; 
     }
 
     public string GetName() => _shortName;
